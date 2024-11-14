@@ -5,3 +5,4 @@ keystore.json
 .keystore.json
 .ruff_cache
 __pycache__
+.DS_Store
