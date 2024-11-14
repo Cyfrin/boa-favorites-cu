@@ -9,7 +9,12 @@ def main():
 
     # Deploy the contract to a `pyevm` network!
     favorites_contract = boa.load("favorites.vy")
-    print(favorites_contract)
+    starting_favorite_number = favorites_contract.retrieve()
+    print(f"The starting favorite number is: {starting_favorite_number}")
+
+    favorites_contract.store(5) # This sends a transaction!
+    ending_favorite_number = favorites_contract.retrieve()
+    print(f"The ending favorite number is: {ending_favorite_number}")
 
 
 if __name__ == "__main__":
