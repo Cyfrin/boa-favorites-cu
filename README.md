@@ -52,8 +52,8 @@ If you can't or don't want to run and install locally, you can work with this re
 ## Installation
 
 ```bash
-git clone https://github.com/cyfrin/web3py-favorites-cu
-cd web3py-favorites-cu
+git clone https://github.com/cyfrin/boa-favorites-cu
+cd boa-favorites-cu
 ```
 
 ### uv 
