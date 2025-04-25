@@ -4,8 +4,4 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-    "python-dotenv>=1.0.1",
-    "titanoboa>=0.2.4",
-    "web3>=7.3.1",
-]
+dependencies = ["python-dotenv>=1.0.1", "titanoboa>=0.2.6", "web3>=7.3.1"]
